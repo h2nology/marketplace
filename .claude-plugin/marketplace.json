@@ -1,0 +1,26 @@
+{
+  "name": "h2nology",
+  "owner": {
+    "name": "h2nology",
+    "url": "https://github.com/h2nology"
+  },
+  "metadata": {
+    "description": "Claude Code plugins maintained by h2nology.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "quiesco",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/h2nology/quiesco.git",
+        "path": "plugin"
+      },
+      "description": "Set up, write and debug Quiesco gray-box e2e tests for Expo apps (iOS, Android, web): /quiesco:setup, /quiesco:debug, API and test-writing skills, and a failure-investigator agent.",
+      "version": "0.4.0",
+      "license": "MIT",
+      "keywords": ["quiesco", "e2e", "testing", "expo", "react-native", "cucumber"],
+      "category": "testing"
+    }
+  ]
+}
